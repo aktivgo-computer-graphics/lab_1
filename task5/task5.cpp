@@ -4,14 +4,14 @@
 
 struct Point {
     std::string name;
-    int x = 0;
-    int y = 0;
+    double x = 0;
+    double y = 0;
 };
 
 struct Vector {
     std::string name;
-    int x = 0;
-    int y = 0;
+    double x = 0;
+    double y = 0;
 };
 
 void print_coord_point(Point);
@@ -66,7 +66,7 @@ bool is_one_line(Point a, Point b, Point c) {
 
 Point get_middle_point(Point a, Point b, Point c) {
     if (a.x == b.x || b.x == c.x || a.x == c.x) {
-        std::vector<int> v = { a.y, b.y, c.y };
+        std::vector<double> v = { a.y, b.y, c.y };
         std::sort(v.begin(), v.end());
 
         if (v[1] == a.y) {
@@ -80,7 +80,7 @@ Point get_middle_point(Point a, Point b, Point c) {
         }
     }
     
-    std::vector<int> v = { a.x, b.x, c.x };
+    std::vector<double> v = { a.x, b.x, c.x };
     std::sort(v.begin(), v.end());
 
     if (v[1] == a.x) {

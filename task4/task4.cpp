@@ -2,14 +2,14 @@
 
 struct Point {
     std::string name;
-    int x = 0;
-    int y = 0;
+    double x = 0;
+    double y = 0;
 };
 
 struct Vector {
     std::string name;
-    int x = 0;
-    int y = 0;
+    double x = 0;
+    double y = 0;
 };
 
 void print_coord_point(Point);
