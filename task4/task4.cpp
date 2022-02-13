@@ -50,6 +50,8 @@ int main()
     else {
         std::cout << "The quadrilateral ABCD IS NOT convex" << std::endl;
     }
+
+    return 0;
 }
 
 void print_coord_point(Point p) {

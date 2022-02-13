@@ -44,6 +44,8 @@ int main()
     else {
         std::cout << "The points NOT ARE on the same straight line" << std::endl;
     }
+
+    return 0;
 }
 
 void print_coord_point(Point p) {

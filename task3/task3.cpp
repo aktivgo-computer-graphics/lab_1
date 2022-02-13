@@ -51,6 +51,8 @@ int main()
     else {
         std::cout << "Vectors AC and BD ARE NOT intersect" << std::endl;
     }
+
+    return 0;
 }
 
 void print_coord_point(Point p) {
